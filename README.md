@@ -4,8 +4,8 @@
 ## Ambiente de Teste
 Sistema testado: https://qa-play-sim.lovable.app/
 
-Navegador utilizado: Google Chrome  
-Sistema operacional: Windows  
+Navegador utilizado: Google Chrome - Versão 145.0.7632.160 (Versão oficial) 64 bits
+Sistema operacional: Microsoft Windows 11 Pro
 
 ## Metodologia de Teste
 
@@ -45,10 +45,43 @@ O sistema deve impedir o cadastro e apresentar mensagens de validação informan
 
 **Evidência em vídeo:**  
 
-[evidencias/bug-01-cadastro-sem-validacao.mp4](./evidencias/bug-01-cadastro-sem-validacao.mp4)
+[Bug 01](./evidencias/bug-01-cadastro-sem-validacao.mp4)
 
 **Severidade:** Alto
 
 **Prioridade:** Alta
 
+---
 
+## 2. Cadastro aceita senha que não atende aos requisitos mínimos
+
+**Descrição:**
+
+A interface informa que a senha precisa ter no mínimo **8 caracteres e 1 caractere especial**, porém o sistema permite criar conta utilizando senhas que não atendem a esses critérios.
+
+**Passos para reproduzir:**
+
+1 - Acessar tela "Criar conta"
+
+2 - Preencher os campos obrigatórios
+
+3 - Inserir uma senha inválida (exemplo: 123456)
+
+4 - Confirmar a senha
+
+5 - Clicar em "Criar conta"
+
+**Resultado atual** 
+
+A conta é criada normalmente mesmo utilizando senha que não atende aos requisitos informados na interface.
+
+**Resultado esperado** 
+
+O sistema deve impedir a criação da conta e apresentar mensagem informando que a senha precisa ter no mínimo 8 caracteres e 1 caractere especial.
+
+**Evidência em video:** 
+
+[Bug 02](./evidencias/bug-02-senha-sem-validacao.mp4)
+
+**Severidade:** Alto  
+**Prioridade:** Alta
