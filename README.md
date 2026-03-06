@@ -43,6 +43,10 @@ A conta é criada e o sistema redireciona para a tela de sucesso.
 
 O sistema deve impedir o cadastro e apresentar mensagens de validação informando que os campos são obrigatórios.
 
+**Evidência em vídeo:**  
+
+[evidencias/bug-01-cadastro-sem-validacao.mp4](./evidencias/bug-01-cadastro-sem-validacao.mp4)
+
 **Severidade:** Alto
 
 **Prioridade:** Alta
