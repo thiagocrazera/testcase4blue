@@ -1,4 +1,3 @@
-# Test Case 4blue
 # Teste Técnico – QA Tester – 4blue
 
 ## Ambiente de Teste
