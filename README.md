@@ -1,4 +1,4 @@
-# Teste Técnico – QA Tester – 4blue
+# Teste Manual
 
 ## Ambiente de Teste
 Sistema testado: https://qa-play-sim.lovable.app/
